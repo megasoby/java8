@@ -79,7 +79,6 @@ public class StreamApp {
                 .map(OnlineClass::getTitle)
                 .collect(Collectors.toList());
 
-        spring.forEach(System.out::println);
-
+        spring.forEach(System.out::println);   
     }
 }
